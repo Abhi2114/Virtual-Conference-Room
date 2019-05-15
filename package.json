@@ -7,6 +7,7 @@
 		"ejs": "2.x",
 		"express": "4.x",
 		"express.io": "1.x",
+		"uglify-js": "^3.5.12",
 		"ws": "^7.0.0"
 	}
 }
