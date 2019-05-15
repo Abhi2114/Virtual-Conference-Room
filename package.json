@@ -1,0 +1,11 @@
+{
+	"name": "virtual-conference-room",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"express": "4.x",
+		"ejs": "2.x",
+		"express.io": "1.x",
+		"connect": "3.6.6"
+	}
+}

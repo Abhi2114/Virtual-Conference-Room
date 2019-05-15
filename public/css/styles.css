@@ -1,0 +1,282 @@
+/*Simple Styles - WebRTC Medical App*/
+html,
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.input-styled{
+  display: inline-block;
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.5);
+  border: none;
+  padding: 0 20px;
+  height: 50px;
+}
+
+/*Header*/
+.navbar{
+  background: rgba(255, 255, 255, 0.30);
+  border: none;
+}
+.navbar-brand{
+  height: 60px;
+  padding: 20px;
+  color: #fff;
+}
+.navbar-brand:hover{
+  color: #fff;
+}
+.navbar-nav>li>a{
+  line-height: 30px;
+  color: #fff;
+}
+.navbar-nav>li a:hover{
+  background: rgba(255, 255, 255, 0.1);
+}
+.menu-right{
+  float: right;
+}
+
+
+/*Maste Head And Landing Text*/
+.mastHead{
+  min-height: 500px;
+  padding: 60px 0 40px;
+  background: url('../images/skyline.jpg');
+  background-size: cover;
+  background-position: center top;  
+  color: #fff;
+  text-align: center;
+}
+.mastHead.landing-page{
+  padding-top: 200px;  
+  min-height: 550px;
+}
+.starter-call-to-action{
+  margin: 10px auto 0;
+  text-align: center;
+}
+.starter-call-to-action .call-group{
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.4);
+  line-height: 60px;
+  padding: 0 30px;
+  color: #fff;
+  margin: 0 10px;  
+  text-decoration: none;
+}
+.starter-call-to-action .call-group:hover{
+  background: rgba(0, 0, 0, 0.8);
+}
+
+
+/*Sign In*/
+.signin-to-app{
+  display: inline-block;
+  width: auto;
+  min-width: 550px;
+  min-height:340px;
+  margin: 60px auto;
+  padding:0 20px 80px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.signin-to-app h2{
+  line-height: 80px;
+  margin: 0 -20px 40px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.signin-to-app p{
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.signin-to-app form{
+  display: inline-block;
+}
+.signin-to-app form input[type="text"],
+.signin-to-app form button{
+  margin: 5px 2px 0;
+  width: 240px;
+  vertical-align: bottom;
+  color: #fff;
+}
+.signin-to-app form button{
+  width: auto;
+  line-height: 50px;
+  background: #8EB63B;
+}
+.signin-to-app form button:hover{
+  background: #739a23;
+}
+.signin-doctor form input[type="text"],
+.signin-doctor form button{
+  width: 200px;
+}
+/*Loading*/
+.loading-wrap{
+  display: inline-block;
+  padding: 10px 40px 15px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.loading-wrap .progress{
+  margin: 10px auto 0;
+}
+
+/*Doctor Info*/
+.doctor-info{
+  display: inline-block;
+}
+.doctor-info .doc-img,
+.doctor-info .doc-text{
+  display: inline-block;
+  margin: 0 3px 0;
+  vertical-align: bottom;
+}
+.doctor-info .doc-img img{
+  height: 135px;
+}
+.doctor-info .doc-text{
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  height: 135px;
+}
+.doctor-info .doc-text button{
+  background: #8EB63B;
+  height: 35px;
+  line-height: 1;
+  width: 140px;
+  margin-top: 10px;
+}
+.doctor-info .doc-text button:hover{
+  background: #739a23;
+}
+.doctor-info .doc-text span{
+  display: block;
+  text-align: left;
+}
+.doctor-info .doc-text span.name{
+  font-size: 18px;
+}
+.doctor-info .doc-text span.specialty{
+  font-size: 14px;
+  color: #f5f5f5;
+}
+
+/*Video Page*/
+.video-page-holder{
+  background: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin-top: 50px;
+}
+.video-page-holder .video-wrap{
+  width: 550px;
+  height: 380px;
+  position: relative;
+}
+.video-wrap video{
+  width: 100%;
+  height: 100%;
+}
+.video-page-holder .video-wrap .main-video,
+.video-page-holder .video-wrap .small-video{
+  position: absolute;
+  background: #181818;
+}
+.video-page-holder .video-wrap .main-video{
+  background: #000000;
+}
+
+.video-page-holder .video-wrap .main-video{
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;  
+}
+.video-page-holder .video-wrap .small-video{
+  bottom:0;
+  right: 0;
+  width: 180px;
+  height: 120px;
+  border-left: 1px solid #888;
+  border-top: 1px solid #888;
+}
+.video-page-holder .actions-holder{
+  padding: 10px;
+}
+.video-page-holder .actions-holder a{
+  line-height: 50px;
+  color: #fff;
+  margin: 0 5px;
+  background: rgba(0, 0, 0, 0.5);
+  width: 160px;
+}
+.send-file,
+.send-message{
+  margin-bottom: 10px;
+}
+.send-file input[type="text"],
+.send-message input[type="text"]{
+  width: 300px;
+  margin-right: 5px;
+}
+.send-file button{
+  width: 200px;
+  background: #8EB63B;
+}
+.send-file button:hover{
+  background: #739a23;
+}
+.send-message button{
+  width: 200px;
+  background: #0FB6DD;
+}
+.send-message button:hover{
+  background: #0b8eab;
+}
+
+/*Messages Box*/
+.message-holder{
+  display: inline-block;
+  width: 508px;
+  padding: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  height: 320px;
+  overflow-x: scroll;
+}
+.message-holder .message-in,
+.message-holder .message-out{
+  display: block;
+  text-align: left;
+} 
+.message-holder .message-in span,
+.message-holder .message-out span{
+  display: inline-block;
+  padding: 6px 8px;
+  margin: 4px 0;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+  line-height: 14px;
+}
+.message-holder .message-in span a,
+.message-holder .message-out span a{
+  color:#A5F008;
+}
+.message-holder .message-out{
+  text-align: right;
+}
+
+/*Video Page*/
+.video-page-holder-horizontal .left,
+.video-page-holder-horizontal .right{
+  float: left;
+}
+.video-page-holder-horizontal .right{
+  width: 250px;
+}
+.video-page-holder-horizontal .right .message-holder{
+  width: 100%;
+  height: 565px;
+}
+.video-page-holder-horizontal .right .message-holder{
+  border: none;
+  background: #2F2D2E;
+}
